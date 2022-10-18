@@ -22,16 +22,18 @@ nav ul li a{
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
   }
   
   .topnav {
     background-color: white;
     height: 7rem;
     width: 100%;
+    padding-left:0px;
+    padding-right: 20px;
   }
   
   .topnav a {
-    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -190,5 +192,11 @@ body {
   .MediaGridListDesktop_root__18VW_ .MediaGridListDesktop_thumb__TgTDY img {
       width: 120px;
       max-height: 20rem;
+  }
+  .logo{
+    float: left;
+  }
+  .logoright{
+    float: right;
   }
 
